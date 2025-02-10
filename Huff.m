@@ -29,7 +29,7 @@ for i =1:length(symbols)
     nodetest(i).frequency=frequencies(i);
 end
 %testing purposes ended :D
-%sadnode, even tho its sad, it's very necessary because of some bug in
+%sadnode, necessary because of some bug in
 %the recursion that I honestly don't have the brain capacity to fix.
 sadnode = myNode;
 sadnode.frequency = 0;
